@@ -27,3 +27,13 @@ variable "ami_id" {
   description = "AMI for Ubuntu Ec2 instance"
   default     = "ami-0e472ba40eb589f49"
 }
+variable "access_key" {
+  type        = string
+  description = "Enter access "
+}
+
+variable "secret_key" {
+  type        = string
+  description = "Enter secret key "
+}
+
